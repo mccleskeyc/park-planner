@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 
-class Epcot extends Component {
+export class Plan extends Component {
     render() {
         return (
             <div>
-                All Epcot Plans
+                Plan
             </div>
         )
     }
 }
 
-export default Epcot
+export default Plan
