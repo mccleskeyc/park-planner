@@ -15,6 +15,11 @@ const plansReducer = (state=initialState, action) => {
                 loading: false,
                 plans: action.plans
             }
+        case "ADD_PLAN":
+            return {
+                ...state,
+                movies: [...state.plans, action.plan]
+            }
         default:
             return state;
     }
