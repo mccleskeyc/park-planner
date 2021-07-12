@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+# Plan.create(name: "", category: "", park: "", land: "", priority: "", notes:"")
+plans = Plan.create([
+    {name: "Coral Reef", category: "Food - Restaurant", park: "Epcot", land: "Future World", priority: "Must", notes:"Reservation for 2 - 8/19 @ 4:45pm"}
+])
