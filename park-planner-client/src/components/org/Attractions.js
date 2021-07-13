@@ -9,15 +9,20 @@ class Attractions extends Component {
         const filteredPlans = plans.filter(plan => plan.props.category === "Attraction")
         if (filteredPlans.length > 0) {
             return (
-                <div>
+                <div className="container">
+                <div className="content">
                     <h1>All Attractions</h1>
                         {filteredPlans}
+                </div>
                 </div>
             )} else 
             return (
                 <div>
+                <div className="container">
+                <div className="content"></div>
                     <h1>All Attractions</h1>
                     <NoPlans />
+                    </div>
                 </div>
             )
         }

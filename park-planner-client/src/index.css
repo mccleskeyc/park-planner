@@ -5,9 +5,56 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #289cd7;
+  padding: 0px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+  text-align: center;
+  color: #690e7f;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color: #144E6B;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3 {
+  color: #144E6B;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: block;
+  padding: 25px 20% 25px 20%;
+  margin: auto;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.nav {
+  background-color: white;
+  margin: 0px;
+  padding: 1px;
+}
+
+.content {
+    display: block;
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: 0 0 4px rgb(0 0 0 / 20%);
+    background-color: #FFF;
+    zoom: 1;
+    position: relative;
+    box-sizing: border-box;
+}
+

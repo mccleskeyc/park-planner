@@ -9,16 +9,17 @@ class Epcot extends Component {
         const filteredPlans = plans.filter(plan => plan.props.park === "Epcot")
         if (filteredPlans.length > 0) {
             return (
-                <div>
+                <div className="container">
                     <h1>Epcot Plans</h1>
                         {filteredPlans}
                 </div>
             )} else 
             return (
-                <div>
+                <div className="container">
+                <div className="content">
                     <h1>Epcot Plans</h1>
                     <NoPlans />
-                </div>
+                </div></div>
             )
         }
     }

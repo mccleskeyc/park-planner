@@ -9,15 +9,18 @@ class MK extends Component {
         const filteredPlans = plans.filter(plan => plan.props.park === "Magic Kingdom")
         if (filteredPlans.length > 0) {
             return (
-                <div>
+                <div className="container">
+                <div className="content">
                     <h1>Magic Kingdom Plans</h1>
                         {filteredPlans}
+                        </div>
                 </div>
             )} else 
             return (
-                <div>
+                <div className="container">
+                <div className="content">
                     <h1>Magic Kingdom Plans</h1>
-                    <NoPlans />
+                    <NoPlans /></div>
                 </div>
             )
         }

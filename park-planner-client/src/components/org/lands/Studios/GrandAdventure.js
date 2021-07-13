@@ -10,16 +10,18 @@ export class GrandAdventure extends Component {
         const filteredPlans = plans.filter(plan => plan.props.land === "Grand Adventure" && plan.props.park === "Hollywood Studios")
         if (filteredPlans.length > 0) {
             return (
-                <div>
+                <div className="container">
+                <div className="content">
                     <h1>Grand Adventure Plans</h1>
                         {filteredPlans}
-                </div>
+                </div></div>
             )} else 
             return (
-                <div>
+                <div className="container">
+                <div className="content">
                     <h1>Grand Adventure Plans</h1>
                     <NoPlans />
-                </div>
+                </div></div>
             )
         }
     }

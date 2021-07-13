@@ -9,16 +9,19 @@ export class GalaxysEdge extends Component {
         const filteredPlans = plans.filter(plan => plan.props.land === "Star Wars: Galaxy's Edge" && plan.props.park === "Hollywood Studios")
         if (filteredPlans.length > 0) {
             return (
-                <div>
+                <div className="container">
+                <div className="content">
                     <h1>Star Wars: Galaxy's Edge Plans</h1>
                         {filteredPlans}
                 </div>
+                </div>
             )} else 
             return (
-                <div>
+                <div className="container">
+                <div className="content">
                     <h1>Star Wars: Galaxy's Edge Plans</h1>
                     <NoPlans />
-                </div>
+                </div></div>
             )
         }
     }

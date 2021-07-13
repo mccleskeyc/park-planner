@@ -7,9 +7,9 @@ export class Canada extends Component {
         const plans = this.props.plans.map((plan, i) => <Plan key={i}name={plan.name} category={plan.category} park={plan.park} land={plan.land} priority={plan.priority} notes={plan.notes}/>)
 
         const filteredPlans = plans.filter(plan => plan.props.land === "Canada" && plan.props.park === "Epcot")
-        if (filteredPlans.length > 0) {
+        if (filteredPlans.length > 1) {
             return (
-                <div>
+                <div className="container">
                     <h1>Canada Plans</h1>
                         {filteredPlans}
                 </div>

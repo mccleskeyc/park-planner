@@ -7,6 +7,7 @@ import Nav from './components/utility/Nav'
 import Home from './components/utility/Home'
 import Form from './components/utility/Form'
 import Index from './components/utility/Index'
+import '../src/index.css'
 // import categories
 import Attraction from './components/org/Attractions'
 import Food from './components/org/Food'

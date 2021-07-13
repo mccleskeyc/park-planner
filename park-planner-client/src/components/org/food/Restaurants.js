@@ -10,7 +10,7 @@ class Food extends Component {
         if (filteredPlanStall.length > 0) {
         return (
             <div>
-                <h1><u>All Food</u></h1>
+                
                 <div>
                     <h2>Restaurants and Stalls</h2>
                     {filteredPlanStall}

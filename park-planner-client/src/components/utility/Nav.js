@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 export class Nav extends Component {
     render() {
         return (
-            <div>
+            <div className="nav">
                 <ul>
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/attractions">Attractions</Link></li>

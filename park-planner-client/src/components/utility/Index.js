@@ -9,15 +9,19 @@ class Index extends Component {
         if (plans.length > 0) {
         
         return (
-            <div>
+            <div className="container">
+                <div className="content">
                 <h1>All Plans</h1>
                 {plans}
             </div>
+            </div>
         )} else 
         return (
-            <div>
+            <div className="container">
+                <div className="content">
             <h1>All Plans</h1>
                 <NoPlans />
+            </div>
             </div>
         )
     }

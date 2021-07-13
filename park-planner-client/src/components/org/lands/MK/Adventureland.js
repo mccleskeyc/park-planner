@@ -9,7 +9,7 @@ class Adventureland extends Component {
         const filteredPlans = plans.filter(plan => plan.props.land === "Adventureland" && plan.props.park === "Magic Kingdom")
         if (filteredPlans.length > 0) {
             return (
-                <div>
+                <div className="container">
                     <h1>Adventureland</h1>
                         {filteredPlans}
                 </div>

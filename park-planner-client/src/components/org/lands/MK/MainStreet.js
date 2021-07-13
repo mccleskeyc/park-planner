@@ -9,7 +9,7 @@ class MainStreet extends Component {
         const filteredPlans = plans.filter(plan => plan.props.land === "Main Street" && plan.props.park === "Magic Kingdom")
         if (filteredPlans.length > 0) {
             return (
-                <div>
+                <div className="container">
                     <h1>Main Street Plans</h1>
                         {filteredPlans}
                 </div>

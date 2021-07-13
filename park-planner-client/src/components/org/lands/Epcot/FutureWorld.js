@@ -9,7 +9,7 @@ class FutureWorld extends Component {
         const filteredPlans = plans.filter(plan => plan.props.land === "Future World" && plan.props.park === "Epcot")
         if (filteredPlans.length > 0) {
             return (
-                <div>
+                <div className="container">
                     <h1>Future World Plans</h1>
                         {filteredPlans}
                 </div>

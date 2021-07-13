@@ -10,7 +10,7 @@ export class AmericanAdventure extends Component {
         
         if (filteredPlans.length > 0) {
             return (
-                <div>
+                <div className="container">
                     <h1>American Adventure Plans</h1>
                         {filteredPlans}
                 </div>

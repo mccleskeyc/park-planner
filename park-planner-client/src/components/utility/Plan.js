@@ -12,6 +12,7 @@ export class Plan extends Component {
                 <p><b>Land: </b>{land}</p>
                 <p><b>Priority: </b>{priority}</p>
                 <p><b>Notes: </b>{notes}</p>
+                <p className="centered-text">✨✨✨</p>
             </div>
         )
     }

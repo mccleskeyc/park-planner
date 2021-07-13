@@ -9,15 +9,19 @@ export class ToyStoryLand extends Component {
         const filteredPlans = plans.filter(plan => plan.props.land === "Toy Story Land" && plan.props.park === "Hollywood Studios")
         if (filteredPlans.length > 0) {
             return (
-                <div>
+                <div className="container">
+                <div className="content">
                     <h1>Toy Story Land Plans</h1>
                         {filteredPlans}
                 </div>
+                </div>
             )} else 
             return (
-                <div>
+                <div className="container">
+                <div className="content">
                     <h1>Toy Story Land Plans</h1>
                     <NoPlans />
+                </div>
                 </div>
             )
         }

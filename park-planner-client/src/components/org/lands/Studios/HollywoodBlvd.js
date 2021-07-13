@@ -9,16 +9,19 @@ export class HollywoodBlvd extends Component {
         const filteredPlans = plans.filter(plan => plan.props.land === "Hollywood Boulevard" && plan.props.park === "Hollywood Studios")
         if (filteredPlans.length > 0) {
             return (
-                <div>
+                <div className="container">
+                <div className="content">
                     <h1>Hollywood Boulevard Plans</h1>
                         {filteredPlans}
                 </div>
+                </div>
             )} else 
             return (
-                <div>
+                <div className="container">
+                <div className="content">
                     <h1>Hollywood Boulevard Plans</h1>
                     <NoPlans />
-                </div>
+                </div></div>
             )
         }
     }

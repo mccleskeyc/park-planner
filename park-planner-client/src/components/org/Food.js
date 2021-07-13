@@ -6,9 +6,12 @@ import Items from './food/Items'
 class Food extends Component {
     render() {
         return (
-            <div>
+            <div className="container">
+            <div className="content">
+            <h1>All Food</h1>
                 <Restaurants />
                 <Items />
+            </div>
             </div>
         )
     }

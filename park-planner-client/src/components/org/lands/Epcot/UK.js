@@ -9,7 +9,7 @@ export class UK extends Component {
         const filteredPlans = plans.filter(plan => plan.props.land === "United Kingdom" && plan.props.park === "Epcot")
         if (filteredPlans.length > 0) {
             return (
-                <div>
+                <div className="container">
                     <h1>United Kingdom Plans</h1>
                         {filteredPlans}
                 </div>
