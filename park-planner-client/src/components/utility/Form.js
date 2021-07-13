@@ -74,7 +74,7 @@ class Form extends Component {
                             <option value="Animation Corner">Animation Corner</option>
                             <option value="Commisary Lane">Commisary Lane</option>
                             <option value="Echo Lake">Echo Lake</option>
-                            <option value="Galaxys Edge">Star Wars: Galaxy's Edge</option>
+                            <option value="Star Wars: Galaxy's Edge">Star Wars: Galaxy's Edge</option>
                             <option value="Grand Adventure">Grand Adventure</option>
                             <option value="Hollywood Boulevard">Holywood Boulevard</option>
                             <option value="Pixar Place">Pixar Place</option>
