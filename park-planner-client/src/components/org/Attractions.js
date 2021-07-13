@@ -9,7 +9,7 @@ class Attractions extends Component {
         const filteredPlans = plans.filter(plan => plan.props.category === "Attraction")
         return (
             <div>
-                <h1><u>All Epcot Plans</u></h1>
+                <h1><u>All Attractions</u></h1>
                 <div>
                     {filteredPlans}
                 </div>
