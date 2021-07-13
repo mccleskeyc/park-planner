@@ -10,9 +10,10 @@ class Epcot extends Component {
         if (filteredPlans.length > 0) {
             return (
                 <div className="container">
+                <div className="content">
                     <h1>Epcot Plans</h1>
                         {filteredPlans}
-                </div>
+                </div></div>
             )} else 
             return (
                 <div className="container">
