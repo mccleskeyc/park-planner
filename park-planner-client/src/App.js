@@ -35,6 +35,16 @@ import Frontierland from './components/org/lands/MK/Frontierland';
 import LibertySquare from './components/org/lands/MK/LibertySquare';
 import MainStreet from './components/org/lands/MK/MainStreet';
 import Tomorrowland from './components/org/lands/MK/Tomorrowland';
+// import studios lands
+import AnimationCourtyard from './components/org/lands/Studios/AnimationCourtyard';
+import CommisaryLane from './components/org/lands/Studios/CommisaryLane';
+import EchoLake from './components/org/lands/Studios/EchoLake';
+import GalaxysEdge from './components/org/lands/Studios/GalaxysEdge';
+import GrandAdventure from './components/org/lands/Studios/GrandAdventure';
+import HollywoodBlvd from './components/org/lands/Studios/HollywoodBlvd';
+import PixarPlace from './components/org/lands/Studios/PixarPlace';
+import SunsetBlvd from './components/org/lands/Studios/SunsetBlvd';
+import ToyStoryLand from './components/org/lands/Studios/ToyStoryLand';
 
 class App extends Component {
 
@@ -84,6 +94,15 @@ class App extends Component {
           <Route exact path="/mainstreet" component={MainStreet} />
           <Route exact path="/tomorrowland" component={Tomorrowland} />
         {/* studios lands nav */}
+        <Route exact path="/animationcourtyard" component={AnimationCourtyard} />
+        <Route exact path="/commisarylane" component={CommisaryLane} />
+        <Route exact path="/echolake" component={EchoLake} />
+        <Route exact path="/galaxysedge" component={GalaxysEdge} />
+        <Route exact path="/grandadventure" component={GrandAdventure} />
+        <Route exact path="/hollywoodblvd" component={HollywoodBlvd} />
+        <Route exact path="/pixarplace" component={PixarPlace} />
+        <Route exact path="/sunsetblvd" component={SunsetBlvd} />
+        <Route exact path="/toystoryland" component={ToyStoryLand} />
         </Switch>
     </Router>
   );

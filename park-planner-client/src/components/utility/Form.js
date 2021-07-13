@@ -50,6 +50,7 @@ class Form extends Component {
                             <option value="Adventureland">Adventureland</option>
                             <option value="Fantasyland">Fantasyland</option>
                             <option value="Frontierland">Frontierland</option>
+                            <option value="Liberty Square">Liberty Square</option>
                             <option value="Main Street">Main Street</option>
                             <option value="Tomorrowland">Tomorrowland</option>
 
