@@ -10,12 +10,13 @@ class Index extends Component {
         
         return (
             <div>
-                All Plans
+                <h1>All Plans</h1>
                 {plans}
             </div>
         )} else 
         return (
             <div>
+            <h1>All Plans</h1>
                 <NoPlans />
             </div>
         )
