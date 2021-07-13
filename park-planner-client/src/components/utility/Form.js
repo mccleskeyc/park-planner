@@ -107,7 +107,7 @@ class Form extends Component {
                         <textarea id="notes" name="notes" value={this.state.notes} onChange={this.handleChange}></textarea>
                     </div>
 
-                    <input type="submit" value="Make Plan" />
+                    <input type="submit" value="Make Plan" className="btn"/>
                 </form>
             </div>
             </div>

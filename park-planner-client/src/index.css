@@ -58,3 +58,21 @@ h3 {
     box-sizing: border-box;
 }
 
+.btn {
+  position: relative;
+  display: inline-block;
+  padding: 5px 10px;
+  margin-top: 10px;
+  background: #aec98f; /* Old browsers */
+  background: -moz-linear-gradient(top, #aec98f 0%, #6f9d31 51%, #62941b 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #aec98f 0%,#6f9d31 51%,#62941b 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #aec98f 0%,#6f9d31 51%,#62941b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aec98f', endColorstr='#62941b',GradientType=0 );
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 500;
+  border-style: hidden;
+  border-radius: 12px;
+}
