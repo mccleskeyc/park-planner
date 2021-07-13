@@ -52,6 +52,7 @@ class App extends Component {
           <Route exact path="/mk" component={MK} />
           <Route exact path="/epcot" component={Epcot} />
           <Route exact path="/studios" component={Studios} />
+        {/* epcot lands nav */}
           <Route exact path="/futureworld" component={FutureWorld} />
           <Route exact path="/americanadventure" component={AmericanAdventure} />
           <Route exact path="/canada" component={Canada} />
@@ -65,6 +66,8 @@ class App extends Component {
           <Route exact path="/norway" component={Norway} />
           <Route exact path="/uk" component={UK} />
           <Route exact path="/worldshowcase" component={WorldShowcaseOther} />
+        {/* mk lands nav */}
+        {/* studios lands nav */}
         </Switch>
     </Router>
   );
