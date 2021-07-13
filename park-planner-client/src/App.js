@@ -11,6 +11,7 @@ import MK from './components/org/parks/MK'
 import Studios from './components/org/parks/Studios'
 import Form from './components/utility/Form'
 import Index from './components/utility/Index'
+import FutureWorld from "./components/org/lands/Epcot/FutureWorld";
 
 class App extends Component {
 
@@ -36,6 +37,7 @@ class App extends Component {
           <Route exact path="/studios" component={Studios} />
           <Route exact path="/form" component={Form} />
           <Route exact path="/index" component={Index} />
+          <Route exact path="/futureworld" component={FutureWorld} />
         </Switch>
     </Router>
   );

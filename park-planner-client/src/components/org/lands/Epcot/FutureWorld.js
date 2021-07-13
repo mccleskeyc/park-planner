@@ -1,13 +1,26 @@
 import React, { Component } from 'react'
-
+import {connect} from 'react-redux'
+import Plan from '/Users/cmccleskey/Development/code/personal/park-planner/park-planner-client/src/components/utility/Plan'
 class FutureWorld extends Component {
     render() {
+        const plans = this.props.plans.map((plan, i) => <Plan key={i}name={plan.name} category={plan.category} park={plan.park} land={plan.land} priority={plan.priority} notes={plan.notes}/>)
+
+        const filteredPlans = plans.filter(plan => plan.props.land === "Future World" && plan.props.park === "Epcot")
         return (
             <div>
-                Future World Plans
+                <h1><u>All Future World Plans</u></h1>
+                <div>
+                    {filteredPlans}
+                </div>
             </div>
         )
     }
 }
 
-export default FutureWorld
+const mapStateToProps = state => {
+    return {
+        plans: state.plans
+    }
+}
+
+export default connect(mapStateToProps)(FutureWorld)
