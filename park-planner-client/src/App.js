@@ -2,15 +2,19 @@ import React, {Component} from "react";
 import { connect } from 'react-redux'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import {getPlans} from './actions'
+// import utilities
 import Nav from './components/utility/Nav'
 import Home from './components/utility/Home'
+import Form from './components/utility/Form'
+import Index from './components/utility/Index'
+// import categories
 import Attraction from './components/org/Attractions'
 import Food from './components/org/Food'
+// import parks
 import Epcot from './components/org/parks/Epcot'
 import MK from './components/org/parks/MK'
 import Studios from './components/org/parks/Studios'
-import Form from './components/utility/Form'
-import Index from './components/utility/Index'
+// import epcot lands
 import FutureWorld from "./components/org/lands/Epcot/FutureWorld";
 import AmericanAdventure from "./components/org/lands/Epcot/AmericanAdventure";
 import Canada from "./components/org/lands/Epcot/Canada";
@@ -24,7 +28,13 @@ import Morocco from "./components/org/lands/Epcot/Morocco";
 import Norway from "./components/org/lands/Epcot/Norway";
 import UK from "./components/org/lands/Epcot/UK";
 import WorldShowcaseOther from "./components/org/lands/Epcot/WorldShowcaseOther";
-
+// import mk lands
+import Adventureland from './components/org/lands/MK/Adventureland';
+import Fantasyland from './components/org/lands/MK/Fantasyland';
+import Frontierland from './components/org/lands/MK/Frontierland';
+import LibertySquare from './components/org/lands/MK/LibertySquare';
+import MainStreet from './components/org/lands/MK/MainStreet';
+import Tomorrowland from './components/org/lands/MK/Tomorrowland';
 
 class App extends Component {
 
@@ -67,6 +77,12 @@ class App extends Component {
           <Route exact path="/uk" component={UK} />
           <Route exact path="/worldshowcase" component={WorldShowcaseOther} />
         {/* mk lands nav */}
+          <Route exact path="/adventureland" component={Adventureland} />
+          <Route exact path="/fantasyland" component={Fantasyland} />
+          <Route exact path="/frontierland" component={Frontierland} />
+          <Route exact path="/libertysquare" component={LibertySquare} />
+          <Route exact path="/mainstreet" component={MainStreet} />
+          <Route exact path="/tomorrowland" component={Tomorrowland} />
         {/* studios lands nav */}
         </Switch>
     </Router>
