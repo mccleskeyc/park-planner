@@ -14,6 +14,11 @@ code {
     monospace;
 }
 
+.logo {
+  height: 25px;
+  float: left;
+}
+
 h1 {
   text-align: center;
   color: #690e7f;
@@ -45,17 +50,35 @@ h3 {
   background-color: white;
   margin: 0px;
   padding: 1px;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  padding: 3px 15px;
+
+}
+
+.link {
+  text-decoration: none;
+  color: #144E6B;
 }
 
 .content {
     display: block;
-    padding: 12px;
+    padding: 12px 30px 12px 30px;
     border-radius: 12px;
     box-shadow: 0 0 4px rgb(0 0 0 / 20%);
     background-color: #FFF;
     zoom: 1;
     position: relative;
     box-sizing: border-box;
+    text-align:justify;
 }
 
 .btn {
