@@ -48,6 +48,10 @@ h3 {
   text-align: center;
 }
 
+.text-link {
+  text-decoration: none;
+}
+
 
 .nav {
   background-color: white;
