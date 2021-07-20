@@ -49,6 +49,7 @@ import ToyStoryLand from './components/org/lands/Studios/ToyStoryLand';
 import Categories from './components/utility/Categories'
 //internal 
 import Parks from './components/org/parks/Parks'
+import Lands from './components/org/lands/Lands'
 
 class App extends Component {
 
@@ -74,6 +75,7 @@ class App extends Component {
           <Route exact path="/index" component={Index} />
         {/* internal nav */}
           <Route exact path="/parks" component={Parks} />
+          <Route exact path="/lands" component={Lands} />
         {/* button nav */}
           <Route exact path="/categories" component={Categories} />
         {/* parks nav */}
