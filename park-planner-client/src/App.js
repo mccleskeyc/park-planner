@@ -47,6 +47,8 @@ import PixarPlace from './components/org/lands/Studios/PixarPlace';
 import SunsetBlvd from './components/org/lands/Studios/SunsetBlvd';
 import ToyStoryLand from './components/org/lands/Studios/ToyStoryLand';
 import Categories from './components/utility/Categories'
+//internal 
+import Parks from './components/org/parks/Parks'
 
 class App extends Component {
 
@@ -70,6 +72,8 @@ class App extends Component {
           <Route exact path="/food" component={Food} />
           <Route exact path="/form" component={Form} />
           <Route exact path="/index" component={Index} />
+        {/* internal nav */}
+          <Route exact path="/parks" component={Parks} />
         {/* button nav */}
           <Route exact path="/categories" component={Categories} />
         {/* parks nav */}
