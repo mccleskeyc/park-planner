@@ -13,17 +13,14 @@ class Attractions extends Component {
                 <div className="content">
                     <h1>All Attractions</h1>
                         {filteredPlans}
-                </div>
-                </div>
+                </div></div>
             )} else 
             return (
-                <div>
                 <div className="container">
-                <div className="content"></div>
+                <div className="content">
                     <h1>All Attractions</h1>
                     <NoPlans />
-                    </div>
-                </div>
+                </div></div>
             )
         }
     }
