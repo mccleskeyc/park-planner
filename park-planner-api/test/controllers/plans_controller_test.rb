@@ -12,7 +12,7 @@ class PlansControllerTest < ActionDispatch::IntegrationTest
 
   test "should create plan" do
     assert_difference('Plan.count') do
-      post plans_url, params: { plan: { category: @plan.category, land: @plan.land, name: @plan.name, notes: @plan.notes, park: @plan.park, priority: @plan.priority } }, as: :json
+      post plans_url, params: { plan: { category: @plan.category, land: @plan.land, name: @plan.name, notes: @plan.notes, park: @plan.park, priority: @plan.priority, @plan.date } }, as: :json
     end
 
     assert_response 201
@@ -24,7 +24,7 @@ class PlansControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update plan" do
-    patch plan_url(@plan), params: { plan: { category: @plan.category, land: @plan.land, name: @plan.name, notes: @plan.notes, park: @plan.park, priority: @plan.priority } }, as: :json
+    patch plan_url(@plan), params: { plan: { category: @plan.category, land: @plan.land, name: @plan.name, notes: @plan.notes, park: @plan.park, priority: @plan.priority @plan.date } }, as: :json
     assert_response 200
   end
 

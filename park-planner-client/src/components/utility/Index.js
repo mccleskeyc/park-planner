@@ -4,7 +4,7 @@ import Plan from '../utility/Plan'
 import NoPlans from './NoPlans'
 class Index extends Component {
     render() {
-        const plans = this.props.plans.map((plan, i) => <Plan key={i} name={plan.name} category={plan.category} park={plan.park} land={plan.land} priority={plan.priority} notes={plan.notes}/>)
+        const plans = this.props.plans.map((plan, i) => <Plan key={i} name={plan.name} category={plan.category} park={plan.park} land={plan.land} priority={plan.priority} notes={plan.notes} date={plan.date}/>)
         
         if (plans.length > 0) {
         

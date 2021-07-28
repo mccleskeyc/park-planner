@@ -4,7 +4,7 @@ import Plan from '/Users/cmccleskey/Development/code/personal/park-planner/park-
 import NoPlans from '../utility/NoPlans'
 class Attractions extends Component {
     render() {
-        const plans = this.props.plans.map((plan, i) => <Plan key={i}name={plan.name} category={plan.category} park={plan.park} land={plan.land} priority={plan.priority} notes={plan.notes}/>)
+        const plans = this.props.plans.map((plan, i) => <Plan key={i}name={plan.name} category={plan.category} park={plan.park} land={plan.land} priority={plan.priority} notes={plan.notes} date={plan.date}/>)
 
         const filteredPlans = plans.filter(plan => plan.props.category === "Attraction")
         if (filteredPlans.length > 0) {
