@@ -48,7 +48,7 @@ import SunsetBlvd from './components/org/lands/Studios/SunsetBlvd';
 import ToyStoryLand from './components/org/lands/Studios/ToyStoryLand';
 import Categories from './components/utility/Categories'
 //internal 
-import Parks from './components/org/parks/Parks'
+import Parks from './components/utility/Parks'
 import Lands from './components/org/lands/Lands'
 
 class App extends Component {
