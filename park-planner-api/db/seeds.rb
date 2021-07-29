@@ -71,7 +71,7 @@ plans = Plan.create([
     {name: "Pirates of the Carribbean", 
 
     category: "Attraction", 
-    park: "Magic Kingdom", land: "Advenutureland", 
+    park: "Magic Kingdom", land: "Adventureland", 
     priority: "Must", 
     notes:""},
 
