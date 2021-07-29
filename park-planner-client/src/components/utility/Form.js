@@ -41,6 +41,8 @@ class Form extends Component {
                             <option value="Magic Kingdom">Magic Kingdom</option>
                             <option value="Epcot">Epcot</option>
                             <option value="Hollywood Studios">Hollywood Studios</option>
+                            <option value="Resorts">Resorts</option>
+                            <option value="Disney Springs">Disney Springs</option>
                         </select>
                     </div>
                         <label htmlFor="land">Land: </label>

@@ -7,13 +7,15 @@ export class Nav extends Component {
             <div className="nav">
                 
                 <ul>
-                <img src={Logo} className="logo" />
+                <img src={Logo} className="logo" alt="logo"/>
                     <li><Link to="/" className="link">Home</Link></li>
                     <li><Link to="/attractions"className="link">Attractions</Link></li>
                     <li><Link to="/food" className="link">Food</Link></li>
                     <li><Link to="/mk" className="link">Magic Kingdom</Link></li>
                     <li><Link to="/epcot" className="link">Epcot</Link></li>
                     <li><Link to="/studios" className="link">Studios</Link></li>
+                    <li><Link to="/resorts" className="link">Resorts</Link></li>
+                    <li><Link to="/disneysprings" className="link">Disney Springs</Link></li>
                     <li><Link to="/form" className="link">Make a Plan</Link></li>
                     <li><Link to="/index" className="link">All Plans</Link></li>
                 </ul>

@@ -15,6 +15,8 @@ import Food from './components/org/Food'
 import Epcot from './components/org/parks/Epcot'
 import MK from './components/org/parks/MK'
 import Studios from './components/org/parks/Studios'
+import Resorts  from "./components/org/parks/Resorts";
+import DisneySprings from "./components/org/parks/DisneySprings";
 // import epcot lands
 import FutureWorld from "./components/org/lands/Epcot/FutureWorld";
 import AmericanAdventure from "./components/org/lands/Epcot/AmericanAdventure";
@@ -51,6 +53,7 @@ import Categories from './components/utility/Categories'
 import Parks from './components/utility/Parks'
 import Lands from './components/org/lands/Lands'
 
+
 class App extends Component {
 
   componentDidMount() {
@@ -82,6 +85,8 @@ class App extends Component {
           <Route exact path="/mk" component={MK} />
           <Route exact path="/epcot" component={Epcot} />
           <Route exact path="/studios" component={Studios} />
+          <Route exact path="/resorts" component={Resorts} />
+          <Route exact path="/disneysprings" component={DisneySprings} />
         {/* epcot lands nav */}
           <Route exact path="/futureworld" component={FutureWorld} />
           <Route exact path="/americanadventure" component={AmericanAdventure} />
