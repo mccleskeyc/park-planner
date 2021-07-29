@@ -48,6 +48,7 @@ class Form extends Component {
                         <label htmlFor="land">Land: </label>
                         <select id="land" name="land" value={this.state.land} onChange={this.handleChange} >
                             <option value="" disabled>Select Land</option>
+                            <option value="None/Other">None/Other</option>
                         {/* Magic Kingdom */}
                             <option value="" disabled>---Magic Kingdom---</option>
                             <option value="Adventureland">Adventureland</option>
@@ -102,6 +103,7 @@ class Form extends Component {
                             <option value="Food - Item">Food - Item</option>
                             <option value="Food - Restaurant/Stall">Food - Restaurant/Stall</option>
                             <option value="Attraction">Attraction</option>
+                            <option value="None/Other">None/Other</option>
                         </select>
                     </div>
                     <div>
