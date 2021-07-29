@@ -14,7 +14,4 @@ plans = Plan.create([
     park: "Epcot", land: "Future World", 
     priority: "Must", 
     notes:"Reservation for 2 - 8/19 @ 4:45pm", 
-    date: "2021-08-19",
-    time: "16:45"}
-
 ])
