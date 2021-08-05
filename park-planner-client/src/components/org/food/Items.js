@@ -9,13 +9,12 @@ class Food extends Component {
         const filteredPlansItems = plans.filter(plan => plan.props.category === "Food - Item")
         if (filteredPlansItems.length > 0) {
         return (
-            <div>
-                <h1><u>All Food</u></h1>
+
                 <div>
                     <h2>Items</h2>
                     {filteredPlansItems}
                 </div>
-            </div>
+
         )} else 
         return (
             <div>

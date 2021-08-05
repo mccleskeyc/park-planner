@@ -3,6 +3,7 @@ import lands from './imgs/lands.jpeg'
 import parks from './imgs/parks.jpeg'
 import categories from './imgs/categories.png'
 import { Link } from 'react-router-dom'
+import Search from './Search'
 export class Home extends Component {
     render() {
         return (
@@ -18,7 +19,7 @@ export class Home extends Component {
                 </div> 
                 <p className="centered-text">Or, <Link to="/index" className="text-link">see all plans</Link>.</p>
                 </div>
-                
+                {/* <Search /> */}
             </div>
         )
     }
