@@ -119,3 +119,8 @@ li {
   max-width: 1.5in;
   margin: 5px;
 }
+
+.plan {
+  background-color: #144E6B10;
+  padding: 10px;
+}
