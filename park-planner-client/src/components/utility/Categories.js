@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import attractions from './imgs/attractions.jpeg'
-import food from './imgs/food.jpeg'
+import attractions from '/Users/cmccleskey/Development/code/personal/park-planner/park-planner-client/src/imgs/attractions.jpeg'
+import food from '/Users/cmccleskey/Development/code/personal/park-planner/park-planner-client/src/imgs/food.jpeg'
 import { Link } from 'react-router-dom'
 export class Categories extends Component {
     render() {

@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import epcot from './imgs/epcot.jpeg'
-import magickingdom from './imgs/magic-kingdom.jpeg'
-import studios from './imgs/studios.jpeg'
+import epcot from '/Users/cmccleskey/Development/code/personal/park-planner/park-planner-client/src/imgs/epcot.jpeg'
+import magickingdom from '/Users/cmccleskey/Development/code/personal/park-planner/park-planner-client/src/imgs/magic-kingdom.jpeg'
+import studios from '/Users/cmccleskey/Development/code/personal/park-planner/park-planner-client/src/imgs/studios.jpeg'
 export class Parks extends Component {
     render() {
         return (
