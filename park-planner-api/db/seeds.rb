@@ -211,7 +211,7 @@ plans = Plan.create([
     {name: "Enchanted Tiki Room", 
 
     category: "Attraction", 
-    park: "Magic Kingdom", land: "Tomorrowland", 
+    park: "Magic Kingdom", land: "Adventureland ", 
     priority: "Low", 
     notes:""},
 
@@ -288,7 +288,7 @@ plans = Plan.create([
     {name: "Under the Sea", 
 
     category: "Attraction", 
-    park: "Magic Kingdom", land: "Fantasy Land", 
+    park: "Magic Kingdom", land: "Fantasyland", 
     priority: "Low", 
     notes:""},
 
